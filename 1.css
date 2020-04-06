@@ -115,7 +115,6 @@ span{
 }
 .foot h2{
     padding-top: 20px;
-    margin-left: 281px;
 }
 @media (max-width:1027px){
 
@@ -146,5 +145,6 @@ span{
     }
     .foot h2{
         width: 704px;
+        margin-left: 278px;
     }
 }
