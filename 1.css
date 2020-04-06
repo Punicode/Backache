@@ -115,18 +115,36 @@ span{
 }
 .foot h2{
     padding-top: 20px;
+    margin-left: 281px;
 }
-@media (max-width:576px){
-    .head h1{
-        width: 1253px;
-    }
+@media (max-width:1027px){
+
     .head{
-        width:317% ;
+       background-color: rgba(178, 34, 34, 0);
+    }
+
+    .foot{
+       background-color: rgba(102, 51, 153, 0);
+    }
+    .nguyen_nhan img{
+        display: none;
+    }
+    .tac_hai img{
+        display: none;
+    }
+    .giai_phap .anh{
+        display: none;
+    }
+    .phong_tranh .anh{
+        display: none;
+    }
+    .container{
+        height: 2300px;
+    }
+    .head h1{
+        margin-left: 182px;
     }
     .foot h2{
-        width: 1253px;
-    }
-    .foot{
-        width:317% ;
+        width: 704px;
     }
 }
